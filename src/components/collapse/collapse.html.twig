@@ -1,0 +1,32 @@
+{% spaceless %}
+
+{# Parameters:
+  - id (string) (default: 'collapse-example')
+  - label (string) (default: 'Toggle on/off')
+  - collapseText (string) (default: 'Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.')
+  - switchTrigger (boolean) (default: false)
+#}
+
+{% set _id = id|default('collapse-example') %}
+{% set _label = label|default('Toggle on/off') %}
+{% set _switchTrigger = switchTrigger|default(false) %}
+{% set _collapseText = collapseText|default('Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.') %}
+
+<p>
+  {% if _switchTrigger %}
+    <a class="btn btn-primary" data-bs-toggle="collapse" href="{{ '#' + _id }}" role="button" aria-expanded="false" aria-controls="{{ _id }}">
+      {{ _label }}
+    </a>
+  {% else %}
+    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="{{ '#' + _id }}" aria-expanded="false" aria-controls="{{ _id }}">
+      {{ _label }}
+    </button>
+  {% endif %}                                                                                                                        
+</p>
+<div class="collapse" id="{{ _id }}">
+  <div class="card card-body">
+    {{ _collapseText }}
+  </div>
+</div>
+
+{% endspaceless %}

@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OE - Collapse renders with anchor trigger and default text 1`] = `
+<p>
+  <a
+    aria-controls="collapseExample"
+    aria-expanded="false"
+    class="btn btn-primary"
+    data-bs-toggle="collapse"
+    href="#collapseExample"
+    role="button"
+  >
+    
+      Toggle on/off
+    
+  </a>
+</p>
+`;
+
+exports[`OE - Collapse renders with button trigger and default text 1`] = `
+<p>
+  <button
+    aria-controls="collapseExample"
+    aria-expanded="false"
+    class="btn btn-primary"
+    data-bs-target="#collapseExample"
+    data-bs-toggle="collapse"
+    type="button"
+  >
+    
+      Toggle on/off
+    
+  </button>
+</p>
+`;
