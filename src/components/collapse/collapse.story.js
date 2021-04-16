@@ -10,37 +10,17 @@ const getArgTypes = (data) => {
       defaultValue: data.id,
       table: {
         type: { summary: "string" },
-        defaultValue: { summary: data.id },
+        defaultValue: { summary: "" },
         category: "Content",
       },
     },
-    switchTrigger: {
-      type: { name: "boolean" },
-      description: "Change between the trigger anchor and button",
-      defaultValue: data.switchTrigger,
-      table: {
-        type: { summary: "boolean" },
-        defaultValue: { summary: data.switchTrigger },
-        category: "Settings",
-      },
-    },
-    label: {
-      type: { name: "string" },
-      description: "Label of the button",
-      defaultValue: data.label,
-      table: {
-        type: { summary: "string" },
-        defaultValue: { summary: data.label },
-        category: "Content",
-      },
-    },
-    collapseText: {
+    collapse_text: {
       type: { name: "string" },
       description: "Text of the collapse",
-      defaultValue: data.collapseText,
+      defaultValue: data.collapse_text,
       table: {
         type: { summary: "string" },
-        defaultValue: { summary: data.collapseText },
+        defaultValue: { summary: "" },
         category: "Content",
       },
     },
@@ -54,16 +34,14 @@ const applyArgs = (data, args) => {
 export default {
   title: "Components/Collapse",
   decorators: [withDesign],
-};
-
-export const Default = (args) => collapse(applyArgs(demoData, args));
-
-Default.storyName = "Default";
-Default.argTypes = getArgTypes(demoData);
-Default.parameters = {
   design: {
     type: "figma",
     url:
       "https://www.figma.com/file/vIqhmdQGAgfcDfFs6vb2vZ/OE-Wireframe-kit?node-id=2726%3A0",
   },
 };
+
+export const Default = (args) => collapse(applyArgs(demoData, args));
+
+Default.storyName = "Default";
+Default.argTypes = getArgTypes(demoData);

@@ -83,7 +83,7 @@ const getArgTypes = (data) => {
       defaultValue: "md",
       control: {
         type: "select",
-        options: ['sm','md','lg'],
+        options: { small: "sm", medium:"md", large: "lg" },
       },
       table: {
         type: { summary: "string" },

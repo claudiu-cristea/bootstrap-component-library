@@ -12,12 +12,4 @@ describe("OE - Collapse", () => {
       render({ ...demoData})
     ).resolves.toMatchSnapshot();
   });
-
-  test(`renders with anchor trigger and default text`, () => {
-    expect.assertions(1);
-
-    return expect(
-      render({ ...demoData, switchTrigger: true})
-    ).resolves.toMatchSnapshot();
-  });
 });
