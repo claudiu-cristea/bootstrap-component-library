@@ -5,11 +5,11 @@ const template = "@oe/collapse/collapse.html.twig";
 const render = (params) => renderTwigFileAsNode(template, params);
 
 describe("OE - Collapse", () => {
-  test(`renders with button trigger and default text`, () => {
+  test(`renders with demoData`, () => {
     expect.assertions(1);
 
     return expect(
-      render({ ...demoData})
+      render(demoData)
     ).resolves.toMatchSnapshot();
   });
 });

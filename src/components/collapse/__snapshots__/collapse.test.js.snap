@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`OE - Collapse renders with button trigger and default text 1`] = `
+exports[`OE - Collapse renders with demoData 1`] = `
 <button
   aria-controls="collapseExample"
   aria-expanded="false"

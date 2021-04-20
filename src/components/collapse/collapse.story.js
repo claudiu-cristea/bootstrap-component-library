@@ -43,5 +43,4 @@ export default {
 
 export const Default = (args) => collapse(applyArgs(demoData, args));
 
-Default.storyName = "Default";
 Default.argTypes = getArgTypes(demoData);

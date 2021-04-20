@@ -11,12 +11,10 @@ module.exports = {
       toggle: true
     },
     {
-      label: 'I am a button',
-      outline: false,
-      variant: 'danger',
-      toggle_type: 'collapse',
-      target: 'collapseExample',
-      toggle: true
+      label: 'I am a link',
+      toggle_target: 'collapseExample',
+      link: true,
+      extra_classes: 'ms-2',
     },
   ]
 };
