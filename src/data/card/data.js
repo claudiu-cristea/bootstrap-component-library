@@ -12,11 +12,7 @@ module.exports = {
     content: "Text card with longer text which is supported",
     classes: "mb-2",
   },
-  image: {
-    path: "https://picsum.photos/seed/1002/600/400",
-    alt: "alt img",
-    position: "top",
-  },
+  image: "<img src='https://picsum.photos/seed/1002/600/400' alt='alt img' />",
   content: "<button class='btn btn-primary'>Custom action</button>",
   card_header: "Header of card",
   card_footer: "Footer of card",

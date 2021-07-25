@@ -11,11 +11,9 @@ exports[`OE - Card grid renders correctly 1`] = `
       <div
         class="mb-3 card"
       >
-        <img
-          alt="alt img"
-          class="card-img-top"
-          src="https://picsum.photos/seed/1002/600/400"
-        />
+        
+          [object Map]
+      
         <div
           class="card-header"
         >
@@ -58,11 +56,9 @@ exports[`OE - Card grid renders correctly 1`] = `
       <div
         class="mb-3 card"
       >
-        <img
-          alt="alt img"
-          class="card-img-top"
-          src="https://picsum.photos/seed/1003/600/400"
-        />
+        
+          [object Map]
+      
         <div
           class="card-header"
         >
@@ -103,11 +99,9 @@ exports[`OE - Card grid renders correctly 1`] = `
       <div
         class="mb-3 card"
       >
-        <img
-          alt="alt img"
-          class="card-img-top"
-          src="https://picsum.photos/seed/1004/600/400"
-        />
+        
+          [object Map]
+      
         <div
           class="card-header"
         >
@@ -148,11 +142,9 @@ exports[`OE - Card grid renders correctly 1`] = `
       <div
         class="mb-3 card"
       >
-        <img
-          alt="alt img"
-          class="card-img-top"
-          src="https://picsum.photos/seed/1005/600/400"
-        />
+        
+          [object Map]
+      
         <div
           class="card-header"
         >
@@ -193,11 +185,9 @@ exports[`OE - Card grid renders correctly 1`] = `
       <div
         class="mb-3 card"
       >
-        <img
-          alt="alt img"
-          class="card-img-top"
-          src="https://picsum.photos/seed/1006/600/400"
-        />
+        
+          [object Map]
+      
         <div
           class="card-header"
         >
@@ -235,6 +225,9 @@ exports[`OE - Card grid renders correctly 1`] = `
       <div
         class="mb-3 card"
       >
+        
+          [object Map]
+      
         <div
           class="card-header"
         >
@@ -267,11 +260,6 @@ exports[`OE - Card grid renders correctly 1`] = `
         >
           Footer of card 6
         </div>
-        <img
-          alt="alt img"
-          class="card-img-bottom"
-          src="https://picsum.photos/seed/1007/600/400"
-        />
       </div>
     </div>
   </div>
@@ -289,11 +277,9 @@ exports[`OE - Card grid renders correctly with 2 per row 1`] = `
       <div
         class="mb-3 card"
       >
-        <img
-          alt="alt img"
-          class="card-img-top"
-          src="https://picsum.photos/seed/1002/600/400"
-        />
+        
+          [object Map]
+      
         <div
           class="card-header"
         >
@@ -336,11 +322,9 @@ exports[`OE - Card grid renders correctly with 2 per row 1`] = `
       <div
         class="mb-3 card"
       >
-        <img
-          alt="alt img"
-          class="card-img-top"
-          src="https://picsum.photos/seed/1003/600/400"
-        />
+        
+          [object Map]
+      
         <div
           class="card-header"
         >
@@ -381,11 +365,9 @@ exports[`OE - Card grid renders correctly with 2 per row 1`] = `
       <div
         class="mb-3 card"
       >
-        <img
-          alt="alt img"
-          class="card-img-top"
-          src="https://picsum.photos/seed/1004/600/400"
-        />
+        
+          [object Map]
+      
         <div
           class="card-header"
         >
@@ -426,11 +408,9 @@ exports[`OE - Card grid renders correctly with 2 per row 1`] = `
       <div
         class="mb-3 card"
       >
-        <img
-          alt="alt img"
-          class="card-img-top"
-          src="https://picsum.photos/seed/1005/600/400"
-        />
+        
+          [object Map]
+      
         <div
           class="card-header"
         >
@@ -471,11 +451,9 @@ exports[`OE - Card grid renders correctly with 2 per row 1`] = `
       <div
         class="mb-3 card"
       >
-        <img
-          alt="alt img"
-          class="card-img-top"
-          src="https://picsum.photos/seed/1006/600/400"
-        />
+        
+          [object Map]
+      
         <div
           class="card-header"
         >
@@ -513,6 +491,9 @@ exports[`OE - Card grid renders correctly with 2 per row 1`] = `
       <div
         class="mb-3 card"
       >
+        
+          [object Map]
+      
         <div
           class="card-header"
         >
@@ -545,11 +526,6 @@ exports[`OE - Card grid renders correctly with 2 per row 1`] = `
         >
           Footer of card 6
         </div>
-        <img
-          alt="alt img"
-          class="card-img-bottom"
-          src="https://picsum.photos/seed/1007/600/400"
-        />
       </div>
     </div>
   </div>
@@ -567,11 +543,9 @@ exports[`OE - Card grid renders correctly with cards having equal height 1`] = `
       <div
         class="mb-3 card h-100"
       >
-        <img
-          alt="alt img"
-          class="card-img-top"
-          src="https://picsum.photos/seed/1002/600/400"
-        />
+        
+          [object Map]
+      
         <div
           class="card-header"
         >
@@ -614,11 +588,9 @@ exports[`OE - Card grid renders correctly with cards having equal height 1`] = `
       <div
         class="mb-3 card h-100"
       >
-        <img
-          alt="alt img"
-          class="card-img-top"
-          src="https://picsum.photos/seed/1003/600/400"
-        />
+        
+          [object Map]
+      
         <div
           class="card-header"
         >
@@ -659,11 +631,9 @@ exports[`OE - Card grid renders correctly with cards having equal height 1`] = `
       <div
         class="mb-3 card h-100"
       >
-        <img
-          alt="alt img"
-          class="card-img-top"
-          src="https://picsum.photos/seed/1004/600/400"
-        />
+        
+          [object Map]
+      
         <div
           class="card-header"
         >
@@ -704,11 +674,9 @@ exports[`OE - Card grid renders correctly with cards having equal height 1`] = `
       <div
         class="mb-3 card h-100"
       >
-        <img
-          alt="alt img"
-          class="card-img-top"
-          src="https://picsum.photos/seed/1005/600/400"
-        />
+        
+          [object Map]
+      
         <div
           class="card-header"
         >
@@ -749,11 +717,9 @@ exports[`OE - Card grid renders correctly with cards having equal height 1`] = `
       <div
         class="mb-3 card h-100"
       >
-        <img
-          alt="alt img"
-          class="card-img-top"
-          src="https://picsum.photos/seed/1006/600/400"
-        />
+        
+          [object Map]
+      
         <div
           class="card-header"
         >
@@ -791,6 +757,9 @@ exports[`OE - Card grid renders correctly with cards having equal height 1`] = `
       <div
         class="mb-3 card h-100"
       >
+        
+          [object Map]
+      
         <div
           class="card-header"
         >
@@ -823,11 +792,6 @@ exports[`OE - Card grid renders correctly with cards having equal height 1`] = `
         >
           Footer of card 6
         </div>
-        <img
-          alt="alt img"
-          class="card-img-bottom"
-          src="https://picsum.photos/seed/1007/600/400"
-        />
       </div>
     </div>
   </div>
@@ -842,11 +806,9 @@ exports[`OE - Card group renders correctly 1`] = `
     <div
       class="card"
     >
-      <img
-        alt="alt img"
-        class="card-img-top"
-        src="https://picsum.photos/seed/1008/600/400"
-      />
+      
+          [object Map]
+      
       <div
         class="card-header"
       >
@@ -885,11 +847,9 @@ exports[`OE - Card group renders correctly 1`] = `
     <div
       class="card"
     >
-      <img
-        alt="alt img"
-        class="card-img-top"
-        src="https://picsum.photos/seed/1009/600/400"
-      />
+      
+          [object Map]
+      
       <div
         class="card-header"
       >
@@ -926,6 +886,9 @@ exports[`OE - Card group renders correctly 1`] = `
     <div
       class="card"
     >
+      
+          [object Map]
+      
       <div
         class="card-header"
       >
@@ -958,11 +921,6 @@ exports[`OE - Card group renders correctly 1`] = `
       >
         Footer of card 3
       </div>
-      <img
-        alt="alt img"
-        class="card-img-bottom"
-        src="https://picsum.photos/seed/1010/600/400"
-      />
     </div>
   </div>
 </jest>
@@ -1022,6 +980,9 @@ exports[`OE - Card masonry renders correctly 1`] = `
       <div
         class="mb-3 card"
       >
+        
+          [object Map]
+      
         <div
           class="card-header"
         >
@@ -1049,11 +1010,6 @@ exports[`OE - Card masonry renders correctly 1`] = `
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
     
         </div>
-        <img
-          alt="alt img"
-          class="card-img-bottom"
-          src="https://picsum.photos/seed/1011/600/400"
-        />
       </div>
     </div>
     <div
@@ -1129,11 +1085,9 @@ exports[`OE - Card masonry renders correctly 1`] = `
       <div
         class="mb-3 card"
       >
-        <img
-          alt="alt img"
-          class="card-img-top"
-          src="https://picsum.photos/seed/1012/600/400"
-        />
+        
+          [object Map]
+      
         <div
           class="card-header"
         >
